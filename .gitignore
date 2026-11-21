@@ -1,0 +1,10 @@
+build/
+out/
+.vs/
+*.user
+vcpkg_installed/
+# vendor SDKs downloaded by tools/fetch_sdks.ps1 (not redistributed here)
+third_party/dlss/
+third_party/fsr/
+third_party/nvofruc/
+third_party/nvidia/

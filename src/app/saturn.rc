@@ -1,0 +1,13 @@
+1 ICON "../../branding/SaturnProject.ico"
+2 RCDATA "../../branding/saturn-logo.png"
+#ifndef SATURN_NO_FRUC
+10 RCDATA "../../third_party/nvofruc/NvOFFRUC.dll"
+11 RCDATA "../../third_party/nvofruc/cudart64_110.dll"
+#endif
+#ifndef SATURN_NO_DLSS
+12 RCDATA "../../third_party/dlss/lib/nvngx_dlssg.dll"
+#endif
+#ifndef SATURN_NO_FSR
+13 RCDATA "../../third_party/fsr/bin/amd_fidelityfx_loader_dx12.dll"
+14 RCDATA "../../third_party/fsr/bin/amd_fidelityfx_framegeneration_dx12.dll"
+#endif
